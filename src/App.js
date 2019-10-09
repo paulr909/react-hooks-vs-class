@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Product from "./components/Product";
 import Stock from "./components/Stock";
-import Feed from "./components/Feed";
+// import Feed from "./components/Feed";
 
 function App() {
     return (

@@ -12,7 +12,7 @@ function App() {
                 <Product/>
                 <Stock/>
             </header>
-            <Feed/>
+            {/*<Feed/>*/}
         </div>
     );
 }

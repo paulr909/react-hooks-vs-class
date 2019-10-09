@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Product from "./components/Product";
 import Stock from "./components/Stock";
+import Feed from "./components/Feed";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
                 <Product/>
                 <Stock/>
             </header>
+            <Feed/>
         </div>
     );
 }

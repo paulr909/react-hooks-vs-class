@@ -29,20 +29,23 @@ class Feed extends Component {
     }
 
     render() {
+        let ml20 = {marginLeft: "20px"};
         const {error, isLoaded, items} = this.state;
         if (error) {
-            return <div>Error: {error.message}</div>;
+            return <div style={ml20}>Error: {error.message}</div>;
         } else if (!isLoaded) {
-            return <div>Loading...</div>;
+            return <div style={ml20}>Loading...</div>;
         } else {
             return (
-                <ol>
-                    {items.map(item => (
-                        <li key={item.username}>
-                            {item.username}: {item.name}
-                        </li>
-                    ))}
-                </ol>
+                <div><h1 style={ml20}>Data Feed</h1>
+                    <ol>
+                        {items.map(item => (
+                            <li key={item.username}>
+                                {item.username}: {item.name}
+                            </li>
+                        ))}
+                    </ol>
+                </div>
             );
         }
     }

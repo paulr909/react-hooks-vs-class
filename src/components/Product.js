@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import items from '../data/data';
-// 51 lines of code minus this comment
+// 55 lines of code minus this comment
 class Product extends Component {
     constructor(props) {
         super(props);
@@ -27,10 +27,14 @@ class Product extends Component {
     render() {
         const {items} = this.state;
         return (
-            <div className="container"><h3>Class Component</h3>
+            <div className="container">
+                <h3>Class Component</h3>
                 <input type="checkbox"
                        checked={this.state.isChecked}
                        onChange={this.toggleStock}/>
+                <hr/>
+                {items.label}
+                <hr/>
                 {items.row.map((value, index) => (
                     <div key={index}>
                         <div>{value.level}</div>

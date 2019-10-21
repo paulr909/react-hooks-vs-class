@@ -3,13 +3,13 @@ import items from '../data/data';
 // 38 lines of code minus this comment
 const Stock = () => {
     const [showStock, setShowStock] = useState(true);
-    const [check, setCheck] = useState('checked');
+    const [check, setCheck] = useState(!'checked');
 
     return (
         <div className="container">
             <h3>Component with Hooks</h3>
             <input type="checkbox"
-                   checked={check ? !'checked' : 'checked'}
+                   checked={check ? 'checked' : !'checked'}
                    onChange={() => setCheck(!check)}
                    onClick={() => setShowStock(!showStock)}/>
             <hr/>

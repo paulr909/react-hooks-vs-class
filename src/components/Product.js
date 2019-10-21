@@ -6,7 +6,7 @@ class Product extends Component {
         super(props);
         this.state = {
             items: items,
-            isChecked: true
+            isChecked: false
         };
         this.getInitialState = this.getInitialState.bind(this);
         this.toggleStock = this.toggleStock.bind(this);

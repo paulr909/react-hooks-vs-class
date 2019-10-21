@@ -9,7 +9,7 @@ const Stock = () => {
         <div className="container">
             <h3>Component with Hooks</h3>
             <input type="checkbox"
-                   checked={check ? 'checked' : !'checked'}
+                   checked={check ? !'checked' : 'checked'}
                    onChange={() => setCheck(!check)}
                    onClick={() => setShowStock(!showStock)}/>
             <hr/>

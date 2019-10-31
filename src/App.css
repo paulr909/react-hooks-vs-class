@@ -2,37 +2,37 @@
 }
 
 .App-h1 {
-    text-align: center;
-    color: midnightblue;
+  text-align: center;
+  color: midnightblue;
 }
 
 .App-header {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    font-size: 16px;
-    color: midnightblue;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  color: midnightblue;
 }
 
 span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .container {
-    flex: 1;
-    min-height: 590px;
-    max-height: 590px;
-    margin: 20px;
-    padding: 1rem;
-    background: #f5f5f5;
-    border: 1px solid #d1d1d1;
-    border-radius: 4px;
+  flex: 1;
+  min-height: 590px;
+  max-height: 590px;
+  margin: 20px;
+  padding: 1rem;
+  background: #f5f5f5;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .show {
-    display: block;
+  display: block;
 }

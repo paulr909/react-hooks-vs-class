@@ -8,5 +8,5 @@ The code on large projects becomes lighter and easy to work with, the total
 percentage reduced is by 30.90% in the example given.
 
 ```bash
-yarn start
+npm start
 ```
